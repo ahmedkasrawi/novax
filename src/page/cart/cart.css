@@ -14,7 +14,7 @@
 .item-cart:last-child {
     border: none;
 }
-@media (max-width=991px){
+@media (max-width: 991px){
     .item-cart {
         flex-direction: column;
     }
