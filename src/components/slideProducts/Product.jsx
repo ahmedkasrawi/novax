@@ -44,8 +44,8 @@ function Product({ item }) {
         ) : (
           ""
         )}
-        <div className="img-product">
-          <img src={item.images[0]} alt="product" loading="lazy" />
+        <div className="pb-3 sm:pb-2 flex justify-center">
+          <img className="h-30 w-auto" src={item.images[0]} alt="product" loading="lazy" />
         </div>
         <p className="name-product">{item.title}</p>
         <div className="stars">

@@ -19,21 +19,21 @@ function Cart() {
 
   const favoritesList = favoriteItems.map((item, index) => {
     return (
-      <div key={index} className="relative p-2  bg-black rounded-lg pb-10">
+      <div key={index} className="relative p-1  bg-violet-950/80 rounded-lg pb-10">
         <Link to={`/products/${item.id}`} className=" flex gap-4">
           <img
             src={item.thumbnail}
             alt={item.title}
-            className="flex items-center justify-center bg-white p-4 rounded"
+            className="flex items-center justify-center bg-violet-50 p-4 rounded"
           />
         </Link>
-        <div className="absolute w-full rounded-lg bg-black text-white left-0 items-center bottom-0 px-2 py-1 justify-between md:text-lg ">
+        <div className="absolute w-full rounded-lg bg-violet-950 text-white left-0 items-center bottom-0 px-2 py-1 justify-between md:text-lg ">
           <h4 className="line-clamp-1">{item.title}</h4>
           <p className="price_item">{item.price}</p>
         </div>
 
         <button
-          className="bg-red-500 absolute top-2 right-2 li text-white h-7 rounded-bl-xl py-0.5 px-1"
+          className="bg-red-500 absolute top-1 right-1 li text-white h-7 rounded-bl-xl py-0.5 px-1 rounded-tr-sm"
           onClick={() => deleteItem(item.id)}
         >
           <DeleteIcon fontSize="small" />
