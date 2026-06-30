@@ -31,7 +31,7 @@ function Cart() {
   return (
     <>
       <div className=" my-8 flex justify-center">
-        <div className="w-9/10 bg-white md:w-[50%] p-5 border border-(--border-color) rounded-md shadow-[5px_8px_10px_#c0bfbf44]">
+        <div className="w-9/10 bg-white md:w-7/10 lg:w-1/2 xl:w-4/10 p-5 border border-(--border-color) rounded-md shadow-[5px_8px_10px_#c0bfbf44]">
           <h1 className="pb-5 border-b border-(--border-color) text-(--main-color) font-bold">
             Order Summery
           </h1>

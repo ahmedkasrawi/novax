@@ -44,7 +44,7 @@ function Cart() {
 
   return (
     <div className="w-full">
-      <Container className="grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))]  md:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] md:gap-7 gap-5 my-10">
+      <Container className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-7 gap-5 my-10">
         {favoritesList}
       </Container>
     </div>

@@ -24,7 +24,7 @@ export default function TopHeader() {
       <Container className="flex items-center justify-between w-full h-15 my-2">
         <div className="font-extrabold text-white">
           <Link to="./" className="h-7 px-2">
-            <img className=" h-8 scale-150" src="/logo1.svg" />
+            <img className=" h-7 scale-150" src="/logo1.svg" />
           </Link>
         </div>
 
@@ -38,7 +38,7 @@ export default function TopHeader() {
               </span>
             </Link>
           </div>
-          <div className="icon">
+          <div >
             <Link to="/cart ">
               <ShoppingCartIcon />
               <span className="relative text-(--main-color) text-sm font-bold bottom-1.25 -left-0.5 ">
