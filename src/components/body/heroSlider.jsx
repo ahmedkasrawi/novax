@@ -1,7 +1,7 @@
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Container from "../Container"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,25 +13,24 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import "./body.css"
 import { Link } from 'react-router-dom';
 
-
-
 function HeroSlider() {
     return (
       <div className="hero">
-        <div className="container">
+        <Container className="">
           <Swiper
             pagination={true}
             modules={[Pagination, Autoplay]}
-            className="mySwiper"
             loop={true}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
             }}
           >
-            <SwiperSlide>
-              <div className="content">
-                <h4>introduction the new</h4>
+            <SwiperSlide >
+              <div className="content absolute left-5 flex flex-col items-center ">
+                <h4 className="uppercase text-lg font-normal sm:text-xl md:text-2xl lg:3xl">
+                  introduction the new
+                </h4>
                 <h3>microsoft xbox </h3>
                 <p>windows xp/10/7/8 ps3, Tv Box</p>
                 <Link to="/" className="btn">
@@ -41,8 +40,10 @@ function HeroSlider() {
               <img src="/banner1.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="content">
-                <h4>introduction the new</h4>
+              <div className="content absolute left-5  flex flex-col items-center ">
+                <h4 className="uppercase text-lg font-normal sm:text-xl md:text-2xl lg:3xl">
+                  introduction the new
+                </h4>
                 <h3>microsoft xbox </h3>
                 <p>windows xp/10/7/8 ps3, Tv Box</p>
                 <Link to="/" className="btn">
@@ -52,8 +53,10 @@ function HeroSlider() {
               <img src="/banner1.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="content">
-                <h4>introduction the new</h4>
+              <div className="content absolute left-5 flex flex-col items-center ">
+                <h4 className="uppercase text-lg font-normal sm:text-xl md:text-2xl lg:3xl">
+                  introduction the new
+                </h4>
                 <h3>microsoft xbox </h3>
                 <p>windows xp/10/7/8 ps3, Tv Box</p>
                 <Link to="/" className="btn">
@@ -63,7 +66,7 @@ function HeroSlider() {
               <img src="/banner3.jpg" alt="" />
             </SwiperSlide>
           </Swiper>
-        </div>
+        </Container>
       </div>
     );
 }
