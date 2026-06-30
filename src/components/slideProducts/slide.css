@@ -145,30 +145,9 @@
     display: none;
     border: none;
 }
-.loading-slide .swiper{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 20px;
-    position: relative;
-    overflow: visible;
-}
-.loading-slide .swiper::before{
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    margin-bottom: 10px;
-    left: 0;
-    top: -10px;
-    background-color: #e2e5e7 ;
 
-}
-.loading-slide .swiper .loading-div{
-    width: 200px;
-    height: 320px;
-    background-color: #e2e5e7;
-}
+
+
 .Skelton {
     background-color: #e2e5e7;
     background-image: linear-gradient(
