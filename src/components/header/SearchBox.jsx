@@ -6,7 +6,7 @@ export default function SearchBox() {
       onSubmit={(e) => e.preventDefault()}
       className="
         flex items-center 
-        w-full max-w-45 sm:max-w-80 md:max-w-md lg:max-w-lg mx-auto 
+        w-full max-w-42 sm:max-w-80 md:max-w-md lg:max-w-lg mx-auto 
         bg-(--bg-color) border border-(--main-color) 
         rounded-full overflow-hidden h-7 md:h-8
         focus-within:ring-1 focus-within:ring-(--main-color)

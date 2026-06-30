@@ -21,7 +21,7 @@ export default function TopHeader() {
         top-header w-full flex flex-col items-center justify-center bg-(--bg-color) border-b border-gray-300 sticky
         left-0 top-0 z-500"
     >
-      <Container className="flex items-center justify-between w-full my-4">
+      <Container className="flex items-center justify-between w-full h-15 my-2">
         <div className="font-extrabold text-white">
           <Link to="./" className="h-7 px-2">
             <img className=" h-8 scale-150" src="/logo1.svg" />
