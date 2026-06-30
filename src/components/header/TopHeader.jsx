@@ -23,7 +23,7 @@ export default function TopHeader() {
     >
       <Container className="flex items-center justify-between w-full my-4">
         <div className="font-extrabold text-white">
-          <Link to="./" className="h-7 px-2 bg-gray-600">
+          <Link to="./" className="h-7 px-2">
             <img className=" h-8 scale-150" src="/logo1.svg" />
           </Link>
         </div>
